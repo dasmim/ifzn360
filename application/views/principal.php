@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-	<div id ="sobreposicao"></div>
+	<div id ="sobreposicao" style="background-color: #080808;"></div>
 
 		<div id="a" >
 			<div id="menu">
@@ -25,7 +25,7 @@
 			</div>
 			
 			<div class="meiooucenter">
-				<img src="<?=base_url()?>assets/imgs/logonova2.png" id="logo">    
+				<img src="<?=base_url()?>assets/imgs/lgbranca.png" id="logo">    
 				<!-- <h1>O SISTEMA QUE TE ORIENTA </h1>    -->
 				<div id="meubotao">
 					<a class="btn btn-6 btn-6i " onclick="qual_navegador()">Conheça você mesmo</a>
@@ -39,6 +39,7 @@
 			</a>
 		</div>
 		<div>
+			
 			<div>
 		      <a href="blocoB"><img class="icon a" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_a"></a>
 		      <div class="informacao_a"><p>Área de convivência bloco <b>B</b></p></div>
@@ -73,6 +74,8 @@
 		      <a href="principal"><img class="icon g" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_6"></a>
 		      <div class="informacao_f"><p>Piscina</p></div>
 	    	</div> -->
+
+	    	<p>Se localize no nosso mapa. <br>Você pode clicar nos ícones para conhecer locais e ir para o seu tour virtual. Faça sua escolha!</p>
 
 			<div id="b" style="height: 106%;"><img src="<?=base_url()?>assets/imgs/mapanewnew.png" id="mapa"></div>
 		</div>

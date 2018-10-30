@@ -95,8 +95,8 @@
 		            		</div>
 		         		</div>
 		        	</div> 
-		        	<div class="box-header with-border" style="background-color: #fff; border-radius: 3px; border: 1px solid #00a65a; margin-top:-15px">
-		              	<a href="#" style="float: right; margin-right: 90px; color: black"onclick="voltar()"><img style="width: 1.15571429em;" src="<?=base_url()?>assets/imgs/seta_voltar.png"> Voltar</a>
+		        	<div onclick="voltar()" class="box-header with-border" style="background-color: #fff; border-radius: 3px; border: 1px solid #00a65a; margin-top:-15px">
+		              	<a href="#" style="float: right; margin-right: 90px; color: black"><img style="width: 1.15571429em;" src="<?=base_url()?>assets/imgs/seta_voltar.png"> Voltar</a>
 					</div>
 		      	</section>
 		  	</div>
