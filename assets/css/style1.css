@@ -1,0 +1,159 @@
+.content{ position: absolute !important;}
+
+.wd250{ width: 250px; }
+
+.wd128em{ width: 1.28571429em; }
+
+.liVoltar{ float: right; margin-right: 90px; }
+
+.a-enter-vr-button {
+    background: url() !important;
+    border: !important;
+    bottom:!important;
+    cursor: !important;
+    min-width: !important;
+    min-height:!important;
+    padding-right: !important;
+    padding-top: !important;
+    position: !important;
+    right: !important;
+    transition: !important;
+    -webkit-transition: !important;
+    z-index: !important;
+}
+#vrview {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+.botaomapa{
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 10px 8px;
+    background-color: white;
+}
+
+.conteudoinformation {
+    margin-top: 3px;
+    display: none;
+
+}
+.conteinerform{
+    display: flex;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+.idl{
+    height: 120px;
+    width: 90px; 
+}
+.mapa {
+    transition: 0.5s;
+    background-image: url("https://i.imgur.com/r9Svwau.jpg");
+}
+
+.information {
+    display: flex;
+    transition: 0.5s;
+
+}
+
+.information img {
+    transition: 0.5s;
+    width: 20px;
+    height: 20px;
+}
+
+/*.information {
+    width:500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.85);
+}
+*/
+.i_texto {
+    font-family: kotoriregular;
+    font-size: 15px;
+    margin-top: 2px;
+    max-width: 300px;
+}
+.i_titulo {
+    font-size: 25px;
+}
+.texto{
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding-right: 5%;
+    position: absolute;
+    top: 10px;
+}
+
+.b_b {
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    right:0;
+    padding-right: 5%;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+}
+
+.c_c {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute; 
+    z-index:3;
+    left: 15px;
+    bottom: 20px;  
+    z-index:3;
+    border: 3px solid green;
+}
+
+.mapa:hover {
+    width: 250px;
+    height: 250px;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.mapagrande {
+    display: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.imgur.com/r9Svwau.jpg");
+    background-size: 100%;
+    background-repeat: round;
+}
+.mapagrande button {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 10px 8px;
+    background-color: red;
+    border-radius: 30px;
+    color:white;
+}
+
