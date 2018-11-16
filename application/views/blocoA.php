@@ -44,7 +44,7 @@
 				var vrView = new VRView.Player('#vrview', {
 
 					//images taken with Nexus6 default camera app
-					image: 'https://i.imgur.com/ggIy6Zd.jpg',
+					image: 'https://i.imgur.com/wjDTUPC.jpg',
 					// image: 'https://cors-anywhere.herokuapp.com/https://image.ibb.co/jCpmGQ/1.jpg',
 					// image: 'https://cors-anywhere.herokuapp.com/https://image.ibb.co/fEJtVk/andes_2048.jpg',
 					

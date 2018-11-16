@@ -92,7 +92,11 @@
 			      <a href="blocoB"><img class="icon a" id="iconeLocal" style="display: none;left: 58%;top: 69%;" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_a"></a>
 			      <div class="informacao_a"><p>Área de convivência bloco B</p></div>
 		    	</div>
-        		<div class="mapagrande" id="idmapa"><button onclick="FecharMapa()"><b>X</b></button></div>
+        		<div class="mapagrande" id="idmapa"><button onclick="FecharMapa()"><b>X</b></button>
+        			<img  class = "omapa"src="<?php echo base_url();?>assets/tela_inicial/img/mapa-n.png" >
+        		</div>
+        		
+
         	</div>
 			
 		</div>

@@ -45,7 +45,7 @@
 				var vrView = new VRView.Player('#vrview', {
 
 					//images taken with Nexus6 default camera app
-					image: 'https://i.imgur.com/HLPhFj6.jpg',
+					image: 'https://i.imgur.com/FrKt2yx.jpg',
 					// image: 'https://cors-anywhere.herokuapp.com/https://image.ibb.co/jCpmGQ/1.jpg',
 					// image: 'https://cors-anywhere.herokuapp.com/https://image.ibb.co/fEJtVk/andes_2048.jpg',
 					
@@ -112,7 +112,7 @@
 
         	<div>
         		<div >
-			      <a href="blocoB"><img class="icon a" id="iconeLocal" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_a"></a>
+			      <!-- <a href="blocoB"><img class="icon a" id="iconeLocal" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_a"></a> -->
 			      <div class="informacao_a"><p>Área de convivência bloco B</p></div>
 		    	</div>
         		<div class="mapagrande" id="idmapa"><button onclick="FecharMapa()"><b>X</b></button></div>

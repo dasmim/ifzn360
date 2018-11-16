@@ -1,173 +1,185 @@
-<html>
-<head>
-	<title>IFZN360°</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="<?=base_url()?>/assets/css/style.css" rel="stylesheet">
-					<link href="<?=base_url()?>/assets/css/css2.mapa.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
-	<link href="<?=base_url()?>/assets/css/css_mapa.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<script type = 'text/javascript' src = "<?php echo base_url();?>assets/js/pagina_Chrome.js"></script>
-	<meta charset="UTF-8">
-</head>
-<body>
-	<div id ="sobreposicao" style="background-color: #080808;"></div>
+  <head>
 
-		<div id="a" >
-			<div id="menu">
-			    <a href="#b">Mapa</a>
-			    <a href="#d">Eventos</a>
-			    <a href="#f">Sobre</a>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-			</div>
-			
-			<div class="meiooucenter">
-				<img src="<?=base_url()?>assets/imgs/lgbranca.png" id="logo">    
-				<!-- <h1>O SISTEMA QUE TE ORIENTA </h1>    -->
-				<div id="meubotao">
-					<a class="btn btn-6 btn-6i " onclick="qual_navegador()">Conheça você mesmo</a>
+    <title>IFZN360</title>
+   <link rel="shortcut icon" href="<?php echo base_url();?>assets/tela_inicial/img/loguinho.png" type="image/x-png" />
+    <!-- Bootstrap Core CSS -->
+    <link href="<?php echo base_url();?>assets/tela_inicial/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-				</div> 
-			    
-		    </div>
+    <!-- Custom Fonts -->
+    <link href="<?php echo base_url();?>assets/tela_inicial/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url();?>assets/tela_inicial/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-			<a href="#b">		
-				<img src="http://www.free-icons-download.net/images/angle-brackets-marks-down-icon-70927.png" id="seta">
-			</a>
-		</div>
-		<div>
-			
-			<div>
-		      <a href="blocoB"><img class="icon a" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_a"></a>
-		      <div class="informacao_a"><p>Área de convivência bloco <b>B</b></p></div>
-	    	</div>
+    <!-- Custom CSS -->
+    <link href="<?php echo base_url();?>assets/tela_inicial/css/stylish-portfolio.min.css" rel="stylesheet">
+    	<script type = 'text/javascript' src = "<?php echo base_url();?>assets/js/pagina_Chrome.js"></script>
 
-	    	<div>
-		      <a href="hall_entrada"><img class="icon b" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_b"></a>
-		      <div class="informacao_b"><p>Entrada</p></div>
-	    	</div>
+  </head>
 
-	    	<div>
-		      <a href="principal"><img class="icon c" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_c"></a>
-		      <div class="informacao_c"><p>Quadra</p></div>
-	    	</div>
+  <body id="page-top">
 
-	    	<div>
-		      <a href="blocoA"><img class="icon d" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_d"></a>
-		      <div class="informacao_d"><p>Área de convivência bloco <b>A</b></p></div>
-	    	</div>
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">MENU</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-mapa">Mapa</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-eventos">Eventos</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-sobre">Sobre</a>
+        </li>
+      </ul>
+    </nav>
 
-	    	<div>
-		      <a href="principal"><img class="icon e" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_e"></a>
-		      <div class="informacao_e"><p>Salas bloco <b>b</b></p></div>
-	    	</div>
-
-	    	<div>
-		      <a href="principal"><img class="icon f" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_f"></a>
-		      <div class="informacao_f"><p>Laboratórios</p></div>
-	    	</div>
-
-	    <!-- 	<div>
-		      <a href="principal"><img class="icon g" src="<?=base_url()?>assets/imgs/m-m.svg" id="pin_6"></a>
-		      <div class="informacao_f"><p>Piscina</p></div>
-	    	</div> -->
-
-	    	<p>Se localize no nosso mapa. <br>Você pode clicar nos ícones para conhecer locais e ir para o seu tour virtual. Faça sua escolha!</p>
-
-			<div id="b" style="height: 106%;"><img src="<?=base_url()?>assets/imgs/mapanewnew.png" id="mapa"></div>
-		</div>
-	
-	
-	<div id="c"></div>
-	<div id="d">
-	    <div class="bloc1"><img src="http://portal.ifrn.edu.br/campus/natalzonanorte/noticias/sorteio-do-tema-e-apresentacao-financeira-da-semadec-2018/image_preview"><h2>SEMADEC</h2><p>Semana de Esporte, Musica Artes, Danca do IFRN- Zona Norte</p><p><a href="http://eventos.ifrn.edu.br/semadeczn/">Saiba mais</a></p></div>
-
-	    <div class="bloc1"><img class=" MOCITEC" src="http://eventos.ifrn.edu.br/mociteczn/wp-content/uploads/2017/08/2017-color.png"><br><h2>MOCITEC</h2><p>Mostra de Ciência e tecnologia do campus Natal Zona Norte</p><p><a href="https://pt-br.facebook.com/mociteczn/">Saiba mais</a></p></div>
-
-	    <div class="bloc1"><img src="http://portal.ifrn.edu.br/campus/natalzonanorte/noticias/comissao-divulga-programacao-da-semana-do-meio-ambiente-2018/image_preview"><h2>SEMENTE</h2><p>Semana de meio ambiente do campus Natal Zona Norte </p><p><a href="https://www.facebook.com/SementeIFZN">Saiba mais</a></p></div> 
-</div>
-  
-	<div id="e"></div>
-	<div id="f">
-
-	<h1>Quem <span>Somos</span></h1>
-	<p style="margin-top: 44px" id="somos">Desenvolvido por 5 alunos do 4° do curso de informática para internet. O IFZN360° é um um sistema de imagens em 360° do IFRN Campus Natal Zona-Norte que tem como principal objetivo proporcionar um tour virtual dos locais mais visitados do campus. </p>
-	
-</div>
-	<div id="g"></div>
-	<script>
-	
-	// 	function qual_navegador(){
-	// 		if (get_browser().name == "Chrome"){
-	// 			window.location.href="principal/pagina_Chrome"; 
-	// 		}else if(get_browser().name == "Firefox"){
-	// 			window.location.href="principal/pagina_firefox";
-	// 		}else{
-	// 			alert("Navegador não suportado!");
-	// 		}
-	// 	}
-	
-	// function get_browser(){
-	// 	var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || []; 
-	// 	if(/trident/i.test(M[1])){
-	// 		tem=/\brv[ :]+(\d+)/g.exec(ua) || []; 
-	// 		return {name:'IE',version:(tem[1]||'')};
-	// 		}   
-	// 	if(M[1]==='Chrome'){
-	// 		tem=ua.match(/\bOPR\/(\d+)/)
-	// 		if(tem!=null)   {return {name:'Opera', version:tem[1]};}
-	// 		}   
-	// 	M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
-	// 	if((tem=ua.match(/version\/(\d+)/i))!=null) {M.splice(1,1,tem[1]);}
-	// 	return {
-	// 	  name: M[0],
-	// 	  version: M[1]
-	// 	};
-	//  }
-
-	//  $(document).ready(
-	//       function(){
-	//         $("#pin_a").mouseover(function(){
-	//           $(".informacao_a").css("display", "block");
-
-	//         });
-	//         $("#pin_a").mouseout(function(){
-	//           $(".informacao_a").css("display", "none");
-
-	//         });
-
-	//         $("#pin_b").mouseover(function(){
-	//           $(".informacao_b").css("display", "block");
-
-	//         });
-	//         $("#pin_b").mouseout(function(){
-	//           $(".informacao_b").css("display", "none");
-
-	//         });
-
-	//         $("#pin_c").mouseover(function(){
-	//           $(".informacao_c").css("display", "block");
-
-	//         });
-	//         $("#pin_c").mouseout(function(){
-	//           $(".informacao_c").css("display", "none");
-
-	//         });
-	//       }
-	//     );
-	</script>	
-
-	
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <img src="<?php echo base_url();?>assets/tela_inicial/img/logo.png" style="width: 140px">
+        <h3 class="mb-5">
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" style="margin-bottom: -10%;" onclick="qual_navegador()">CONHEÇA VOCÊ MESMO</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
 
 
-</body>
+    <section style="background-color:white;height: 100px;">
+      <div class="container">
+        <div class="content-section-heading text-center">
+        <!-- <h2 class="mb-5">MAPA</h2> -->
+        </div>
+    </section>
+<!--######### MAPA #########-->
+    <section class="masthead-2 d-flex" id="page-mapa">
+      <div class = "divmap">  
+        <img  class = "omapa"src="<?php echo base_url();?>assets/tela_inicial/img/mapa-n.png" >
+        <img id="a1" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a2" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a3" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a4" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a5" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a6" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a7" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a8" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a9" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a10" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+        <img id="a11" class= "apontador"src="<?php echo base_url();?>assets/tela_inicial/img/apontador.png">
+
+      </div>
+      <div class="overlay"></div>
+    </section>
+<!--######### EVENTOS ######### -->
+    <section class="content-section" id="page-eventos" >
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">EVENTOS</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6" style="padding: 3px;">
+            <a class="portfolio-item" href="http://eventos.ifrn.edu.br/mociteczn/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="invisivel">MOCITECZN</h2>
+                  <p class="invisivel">A Mostra de Ciência e Tecnologia da Zona Norte de Natal (MOCITECZN) é um evento de estímulo ao jovem cientista realizado no IFRN Campus Natal-Zona Norte.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="<?php echo base_url();?>assets/tela_inicial/img/mocitec1.png" alt="">
+            </a>
+          </div>
+    
+
+          <div class="col-lg-6" style="padding: 3px;">
+            <a class="portfolio-item" href="http://eventos.ifrn.edu.br/semadeczn/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="invisivel">SEMADEC</h2>
+                  <p class="invisivel">A Semana de Arte, Cultura e Desporto – SEMADEC. Trata-se de um evento institucional desenvolvido em todos os campi do IFRN.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="<?php echo base_url();?>assets/tela_inicial/img/semadec.png" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-6" style="padding: 3px;">
+            <a class="portfolio-item" href="https://m.facebook.com/profile.php?id=1039277569451692&ref=content_filter">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="invisivel">Semente</h2>
+                  <p class="invisivel">A Semente é a Semana de Meio Ambiente do IFRN Campus Natal Zona Norte.</p>
+                </span>
+              </span> 
+              <img class="img-fluid" src="<?php echo base_url();?>assets/tela_inicial/img/semente.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6" style="padding: 3px;">
+            <a class="portfolio-item" href="http://eventos.ifrn.edu.br/cienciaetecnologiazn/index.php/sobre/sipex/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="invisivel">Sipex</h2>
+                  <p class="invisivel">O Simpósio de Iniciação à Pesquisa e Extensão consiste em um espaço de apresentação de trabalhos científicos e práticas tecnológicas.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="<?php echo base_url();?>assets/tela_inicial/img/sipex.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ######## SOBRE ####### -->
+<section class="content-section" id="page-sobre" >
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">SOBRE</h2>
+          <p style="font-size:25px"><img style="margin-bottom:20px"src="<?php echo base_url();?>assets/tela_inicial/img/aspas.png">
+            O IFZN 360° é um projeto desenvolvido por cinco alunos do 4° ano do curso de Informática para internet  do Instituto de Educação Ciência e Tecnologia do Rio Grande do Norte, Campus Natal Zona Norte. O projeto tem como finalidade Mostrar ao usuário um toor virtual do campus em 360 graus. 
+            <img style="margin-top:20px"src="<?php echo base_url();?>assets/tela_inicial/img/aspas2.png"> <br><i style="color:#850716;font-size:20px">Equipe IFZN360°</i>
+          </p>
+        </div>  
+      </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="rodapé" style="display: -webkit-inline-box; margin-left: 20px">
+        <p class="text-muted small mb-0">Copyright &copy; IFZN360 2018</p>
+      </div>
+      <img style="width:70px; margin-left:10px; margin-bottom: 20px;"src="<?php echo base_url();?>assets/tela_inicial/img/fases.png">
+      <!-- <div class="rodapé" style="display: -webkit-inline-box; margin-left: 550px">
+       <p class="text-muted small mb-0">Powered by <a style="color:#6c757d " href="https://getbootstrap.com/" >Bootstrap</a> , Designed and Developed by <a style="color:#6c757d" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">startbootstrap</a></p>
+      </div> -->
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript -->
+    <script src="<?php echo base_url();?>assets/tela_inicial/vendor/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>assets/tela_inicial/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="<?php echo base_url();?>assets/tela_inicial/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="<?php echo base_url();?>assets/tela_inicial/js/stylish-portfolio.min.js"></script>
+
+  </body>
+
 </html>
-
-
-
-
-
-
