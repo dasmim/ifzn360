@@ -62,4 +62,5 @@ $route['blocoA'] = 'principal/blocoA';
 $route['blocoB'] = 'principal/blocoB';
 $route['estacionamento'] = 'principal/estacionamento';
 $route['campo'] = 'principal/campo';
+$route['biblioteca'] = 'principal/biblioteca';
 $route['voltar'] = 'principal/principal';

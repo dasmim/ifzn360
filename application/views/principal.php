@@ -162,6 +162,9 @@
         <p class="text-muted small mb-0">Copyright &copy; IFZN360 2018</p>
       </div>
       <img style="width:70px; margin-left:10px; margin-bottom: 20px;"src="<?php echo base_url();?>assets/tela_inicial/img/fases.png">
+      <div class="rodapé" style="display: -webkit-inline-box; margin-left: 20px">
+        <a class="text-muted small mb-0" href="http://fases.ifrn.edu.br/">Fábrica de Software Escola</a>
+      </div>
       <!-- <div class="rodapé" style="display: -webkit-inline-box; margin-left: 550px">
        <p class="text-muted small mb-0">Powered by <a style="color:#6c757d " href="https://getbootstrap.com/" >Bootstrap</a> , Designed and Developed by <a style="color:#6c757d" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">startbootstrap</a></p>
       </div> -->

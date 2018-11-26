@@ -26,6 +26,10 @@ class Principal extends CI_Controller {
 	{
 		$this->load->view('fachada');
 	}
+	public function biblioteca()
+	{
+		$this->load->view('biblioteca');
+	}
 	public function pagina_firefox()
 	{
 		$this->load->view('pagina_firefox');

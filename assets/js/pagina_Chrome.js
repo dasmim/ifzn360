@@ -17,6 +17,15 @@
 				alert("Navegador não suportado!");
 			}
 		}
+		function biblioteca(){
+			if (get_browser().name == "Chrome"){
+				window.location.href="biblioteca"; 
+			}else if(get_browser().name == "Firefox"){
+				window.location.href="principal/pagina_firefox";
+			}else{
+				alert("Navegador não suportado!");
+			}
+		}
 		function inicial(){
 			if (get_browser().name == "Chrome"){
 				window.location.href="pagina_principal"; 

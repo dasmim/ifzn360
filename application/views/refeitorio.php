@@ -77,18 +77,18 @@
 		                			</div>
 		                <!-- /.box-tools -->
 		              			</div>
-		            
-		              			<div class="box-footer no-padding" >
+		            <div class="box-footer no-padding" >
 		              				<ul class="nav nav-stacked">
-		              					<li><a href="#" onclick="fachada()">Fachada</a></li>
-						                <li><a href="#" onclick="entrada()">Entrada</a></li>
-						                <li><a href="#" onclick="hall_entrada()">Hall de Entrada </a></li>
-						                <li><a href="#" onclick="auditorio()">Auditorio</a></li>
-						                <li><a href="#" onclick="refeitorio()">Refeitorio</a></li>
-						                <li><a href="#" onclick="blocoA()">Area de convivencia do bloco A</a></li>
-						                <li><a href="#" onclick="blocoB()">Area de convivencia do bloco B</a></li>
-						                <li><a href="#" onclick="estacionamento()">Estacionamento</a></li>
-						                <li><a href="#" onclick="campo()">Campo</a></li>
+		              					<li ><a href="#" onclick="fachada()">Fachada</a></li>
+						                <li ><a href="#" onclick="entrada()">Entrada</a></li>
+						                <li ><a href="#" onclick="hall_entrada()">Hall de Entrada </a></li>
+						                <li ><a href="#" onclick="auditorio()">Auditorio</a></li>
+						                <li ><a href="#" onclick="refeitorio()">Refeitorio</a></li>
+						                <li ><a href="#" onclick="blocoA()">Area de convivencia do bloco A</a></li>
+						                <li ><a href="#" onclick="blocoB()">Area de convivencia do bloco B</a></li>
+						                <li ><a href="#" onclick="biblioteca()">Biblioteca</a></li>
+						                <li ><a href="#" onclick="estacionamento()">Estacionamento</a></li>
+						                <li ><a href="#" onclick="campo()">Campo</a></li>
 <!-- 						                <li style="float: right; margin-right: 80px;"><a href="#" onclick="voltar()"><img style="width: 1.28571429em;" src="<?=base_url()?>assets/imgs/seta_voltar.png"> Voltar</a></li>
  -->		              				</ul>
 		            			</div>
